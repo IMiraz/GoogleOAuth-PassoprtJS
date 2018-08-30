@@ -2,20 +2,19 @@
   "name": "GoogleOAuth-passportjs",
   "version": "1.0.0",
   "main": "index.js",
-
-"engines":{
-"node":"8.11.1",
-"npm": "5.6.0"
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
   },
-
-"scripts": {
-  "start": "node index.js"
-},
-
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "https://github.com/IMiraz/GoogleOAuth-Passportjs.git",
   "author": "wasifmiraz <wasifmiraz@mail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
