@@ -5,7 +5,7 @@ const app =express();
 
 app.get('/', (req, res) => {
 
-    res.send({ h1: 'there'});
+    res.send({ h1: 'buddy what are doing'});
 
 });
 
