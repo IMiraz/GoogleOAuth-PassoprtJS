@@ -13,7 +13,7 @@ app.get('/auth/google',
 
 app.get('/',(req, res) => {
 
-    res.send("Welcome google oauth testing");
+    res.send("HOW TO YOU TEST ?'.Please take a look the github repo Readme doc  ");
 
 });
 
